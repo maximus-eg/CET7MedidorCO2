@@ -14,7 +14,7 @@ import time
 import datetime
 
 #un numero máximo de lecturas
-N=10000000
+N=100
 
 start=time.time()
 with open('medidor.dat', 'w') as the_file:
